@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#amarelo{
+    background-color: yellow;
+    height: 100px;
+}
+#amareloclaro{
+    background-color: rgb(241, 241, 88);
+    height: 500px;
+}
+#laranja{
+    background-color: orange;
+    height: 500px;
+}
+#laranjaescuro{
+    background-color: orangered;
+    height: 120px;
+    width: 120000px;
+}
+.text{
+    font-size: 26px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+#vermelho{
+    background-color: red;
+    height: 100px;
+}
+.beach {
+    height: 100px;
+    width: 100px;
+}
+#tc{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+}
+#pv{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+}
+@media screen and  (max-width:576px){
+    
+    
+}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
+   body{
+       background: url(https://img.freepik.com/fotos-gratis/areia_74190-3480.jpg?size=626&ext=jpg);
+   }
+   .ondas img{
+       height: 50px;
+       width: 50px;
+   }
+   
